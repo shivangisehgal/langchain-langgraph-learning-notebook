@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+**/credentials*.json
+**/*secret*
+
+# Nested / redundant clones (code snapshots live in course-code/)
+langchain-course.git/
+documentation-helper/
+ice_breaker/
+langgraph-course/
+reflexion/
+
+# Python / tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.uv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+*.egg-info/
+dist/
+build/
+chroma_db/
+.chroma/
+
+# IDE
+.idea/
+.vscode/
+*.swp
